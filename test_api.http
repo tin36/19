@@ -38,12 +38,12 @@ Accept: application/json
 
 ###
 
-GET http://127.0.0.1:10001/movies/21
+GET http://127.0.0.1:5000/movies/2
 Accept: application/json
 
 ###
 
-POST http://127.0.0.1:10001/movies/
+POST http://127.0.0.1:5000/movies/
 Accept: application/json
 Content-Type: application/json
 
@@ -74,7 +74,7 @@ Content-Type: application/json
 
 ###
 
-PATCH http://127.0.0.1:10001/movies/3
+PATCH http://127.0.0.1:5000/movies/3
 Accept: application/json
 Content-Type: application/json
 
